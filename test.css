@@ -1,0 +1,17 @@
+.flex-container{
+    display: flex;
+    align-items:stretch;
+    align-content:space-between ;
+    flex-wrap: wrap;
+    height: 600px;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.flex-container>div{
+    padding: 20px;
+    text-align: center;
+    line-height: 100px;
+    background-color: blanchedalmond;
+    margin: 10px;
+    width: 80px;
+}

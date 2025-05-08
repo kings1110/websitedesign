@@ -1,0 +1,183 @@
+*{
+    margin-left: 10px;
+}
+.flex-container{
+    display: flex;
+    align-content:space-between ;
+    flex-wrap: wrap;
+    margin-left: 0%;
+    /* height: 150px; */
+    /* background-color: aquamarine; */
+}
+.flex-container>div{
+    padding: 10px;
+    text-align:center;
+    margin: 4px;
+    margin-left: 0%;
+    /* background-color:gray; */
+   
+}
+button{
+    width:auto;
+    height: 30px;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid rgb(187, 186, 186);
+    cursor: pointer;
+    padding: 8px;
+    margin: 5px;
+}
+.flex-container>div img:hover { 
+    cursor: pointer;
+    opacity: 0.7;
+}
+button:hover{
+    transition: 0.5s;
+    border: 1px solid black;
+
+}
+.nav-container{
+    display: flex;
+}
+input{
+border-radius: 16px;
+padding: 8px;
+line-height: 20px;
+width: 50%;
+outline: 0;
+border: none;
+background-color: rgb(252, 249, 249);
+margin-left: 25px;
+}
+input:hover{
+background-color: rgba(25, 27, 38, .08);; 
+}
+.b1{
+    border: 6px;
+    background-color: white;
+    width: 100px;
+    border-radius: 50px;
+    padding:10px;
+    font-size: 14px;
+    font-weight: 540;
+    font-family: Open Sans, Arial, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
+    text-align: center;
+    cursor: pointer;
+    /* gap: 2; */
+}
+.b2{
+    border: 6px;
+    background-color: white;
+    width: 60px;
+    border-radius: 50px;
+    padding:10px;
+    text-align: center;
+    /* margin-left: 30px; */
+    gap: 2;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 540;
+    font-family: Open Sans, Arial, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
+
+}
+.b3{
+    border: 6px;
+    background-color:white;
+    width: 45px;
+    border-radius: 50px;
+    padding:10px;
+    text-align: center;
+    /* margin-left: 40px; */
+    border: 1px solid rgb(159, 157, 157);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 540;
+    font-family: Open Sans, Arial, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
+}
+.b4{
+    border: 6px;
+    background-color:#04AA6D;
+    width: 90px;
+    border-radius: 50px;
+    padding:10px;
+    text-align: center;
+    /* margin-left: 10px; */
+    color: white;
+    cursor: pointer;
+    gap: 2;
+    font-size: 14px;
+    font-weight: 540;
+    font-family: Open Sans, Arial, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
+}
+.b1:hover{
+    background-color: rgba(25, 27, 38, .08);
+}
+.b2:hover{
+    background-color: rgba(25, 27, 38, .08);
+}
+.b3:hover{
+    background-color: rgba(25, 27, 38, .08);
+}
+.b4:hover{
+    background-color: #02c37c;
+}
+/* .adjust-p{
+    margin-left: 0%;
+    margin-right: 0%;
+} */
+.adjust-span{
+    /* margin-left: 1%; */
+    margin-right: 0%;
+    cursor: pointer;
+}
+.adjust-span:hover{
+    text-decoration: underline;
+    color: #00ab6b;
+}
+.fixed{
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-size: 14px;
+    font-weight: 540;
+    font-family: Open Sans, Arial, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
+}
+.fixed:hover{
+    background-color: rgba(25, 27, 38, .08);
+    border-radius: 16px;
+}
+.retouch{
+    padding: 10px;
+    margin-left: 0%;
+    font-style: italic;
+    font-size: 20px;
+}
+    .imagebutton{
+        border:6px;
+        font-size: 18px;
+        padding: 4px;
+       color: rgba(25,27,38,.64);
+       border-radius: 50px;
+       background-color: white;
+       border: none;
+    }
+    .dropdown,.imagebutton{
+        border: none;
+    }
+.b4>img{
+    margin-right: 4px;
+}
+.imagebutton:hover{
+    background-color: rgb(222, 216, 216);
+}
+select{
+    width: 128px;
+    height: 40px;
+    border: none;
+    border-radius: 14px;
+    padding: 10px;
+    cursor: pointer;
+    border: 0;    
+    outline: 0;
+}

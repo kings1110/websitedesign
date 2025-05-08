@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("pngtree.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* opacity: 0.1; */
+    font-family: sans-serif;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* viewport height */
+
+}
+.content{
+    width: 500px;
+    background-color:rgba(128, 128, 128, 0.558);
+    height: 500px;
+    /* margin-top: 200px; */
+    border-radius: 6px;
+    padding: 30px;
+    backdrop-filter: blur(14px);
+    /* opacity: 0.7; */
+}
+
+.content h1 {
+    font-size: 26px;
+    text-align: center;
+}
+
+.content input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    
+}
+.bu1{
+    margin-top: 45px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    
+    
+}
+.bu1:hover{
+    background-color: rgb(232, 223, 223);
+}
+.bu2{
+    margin-top: 20px;
+    padding: 8px;
+    width: 40%;
+    margin-right: 20px;
+    margin-left: 20px
+    
+
+}
